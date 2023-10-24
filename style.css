@@ -78,3 +78,68 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/* custom */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+main {
+  flex-grow: 1;
+}
+
+nav > ul {
+  list-style: none;
+  padding-left: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.container {
+  padding-inline: 1rem;
+}
+
+.hero-section {
+  background: url("./images/image-hero.png");
+  background-size: cover;
+  color: white;
+  padding: 5rem 1rem 1rem;
+  margin-bottom: 2rem;
+}
+
+.blog-list {
+  padding-inline: 1rem;
+  margin-bottom: 2rem;
+}
+
+.blog {
+  margin-bottom: 2.5rem;
+}
+
+.blog > img {
+  margin-bottom: 1rem;
+}
+
+.view-more-section {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+footer {
+  color: white;
+  background-color: #202020;
+  padding: 2rem 9.5rem;
+  text-align: center;
+}

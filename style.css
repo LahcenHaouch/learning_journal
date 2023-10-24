@@ -84,12 +84,18 @@ h6 {
 body {
   display: flex;
   flex-direction: column;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+}
+
+.logo {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
 
 main {

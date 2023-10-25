@@ -149,3 +149,12 @@ footer {
   padding: 2rem 9.5rem;
   text-align: center;
 }
+
+footer > p,
+footer > small {
+  font-size: 0.75rem;
+}
+
+.bold {
+  font-weight: bold;
+}

@@ -150,8 +150,7 @@ footer {
   text-align: center;
 }
 
-footer > p,
-footer > small {
+.small {
   font-size: 0.75rem;
 }
 

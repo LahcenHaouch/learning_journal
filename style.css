@@ -141,6 +141,7 @@ nav > ul {
 
 .blog > img {
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 .view-more-section {
@@ -161,4 +162,19 @@ footer {
 
 .bold {
   font-weight: bold;
+}
+
+@media (min-width: 960px) {
+  .hero-section {
+    height: 488px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .blog-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+  }
 }

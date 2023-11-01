@@ -90,7 +90,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  padding-block: 1rem;
 }
 
 h1 {
@@ -122,16 +122,20 @@ nav > ul {
   padding-inline: 1rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .hero-section {
   background: url("./images/image-hero.png");
   background-size: cover;
   color: white;
-  padding: 5rem 1rem 1rem;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
   margin-bottom: 2rem;
 }
 
 .blog-list {
-  padding-inline: 1rem;
   margin-bottom: 2rem;
 }
 

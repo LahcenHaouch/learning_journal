@@ -28,3 +28,26 @@ h1 {
 h3 {
   margin-bottom: 1rem;
 }
+
+.text-center {
+  margin-bottom: 1.75rem;
+}
+
+@media (min-width: 641px) {
+  main,
+  .container-l {
+    padding-inline: 3.25rem;
+  }
+
+  header {
+    margin-inline: 3.25rem;
+  }
+
+  /* .blog-primary {
+    padding-inline: 2rem;
+  } */
+
+  .blog-primary img {
+    height: 488px;
+  }
+}

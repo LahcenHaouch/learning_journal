@@ -22,3 +22,27 @@ h3 {
 .text-center {
   margin-bottom: 1.75rem;
 }
+
+.mobile-block {
+  display: block;
+}
+
+@media (min-width: 641px) {
+  main,
+  .container-l {
+    padding-inline: 3.25rem;
+  }
+
+  header {
+    margin-inline: 3.25rem;
+  }
+
+  .about-me p.intro {
+    margin-bottom: 0;
+  }
+
+  .mobile-block {
+    display: flex;
+    gap: 2rem;
+  }
+}

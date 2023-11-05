@@ -126,6 +126,10 @@ nav > ul {
   text-align: center;
 }
 
+.align-items-center {
+  align-items: center;
+}
+
 .hero-section {
   background: url("./images/image-hero.png");
   background-size: cover;

@@ -1,0 +1,24 @@
+.about-me img {
+  width: 182px;
+  margin-block: 1.688rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.about-me p {
+  margin-bottom: 2.25rem;
+}
+
+.intro {
+  margin-bottom: 3.125rem;
+}
+
+h3 {
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  margin-bottom: 1.75rem;
+}
